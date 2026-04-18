@@ -864,4 +864,3 @@ const JoyLuckBootcamp = () => {
 };
 
 export default JoyLuckBootcamp;
-export default JoyLuckBootcamp;
