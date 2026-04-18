@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { X, Mail, MessageCircle, Users, Wifi, Coffee, Dumbbell, Utensils, Car, Clock, Store, Waves, Flame, UtensilsCrossed, Droplets, Moon, Sun, ChevronRight, ExternalLink, Copy, Check } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 const JoyLuckBootcamp = () => {
   const [darkMode, setDarkMode] = useState(true);
@@ -368,7 +369,7 @@ const JoyLuckBootcamp = () => {
                 features: ["Better Prices Guaranteed", "Luxury to Budget Options", "1:1 Consultation"]
               },
               {
-                icon: "🎮",
+                icon: "����",
                 title: "Gaming Setup",
                 desc: "Professional setups installed in your room. Custom PCs, monitors, streaming gear.",
                 features: ["Custom PC Builds", "Gaming Monitors", "Streaming Equipment"]
@@ -859,6 +860,7 @@ const JoyLuckBootcamp = () => {
           }
         }
       `}</style>
+      <Analytics />
     </div>
   );
 };
