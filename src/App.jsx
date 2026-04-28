@@ -206,7 +206,7 @@ const JoyLuckBootcamp = () => {
               textShadow: `0 0 12px ${colors.neonGlow}`
             }}
           >
-            JOYLUCK KR
+            JoyLuck KR Bootcamp
           </a>
           <a
             href="#contact"
@@ -269,41 +269,27 @@ const JoyLuckBootcamp = () => {
           </div>
 
           <h1 
-            className="text-5xl md:text-6xl font-black mb-6 tracking-tight"
+            className="text-5xl md:text-6xl font-black mb-2 tracking-tight"
             style={{ fontFamily: 'Inter, sans-serif' }}
           >
-            Premium Bootcamp in{' '}
+            Seoul Hotels{' '}
             <span style={{ 
               color: darkMode ? colors.neon : colors.lNeon,
               textShadow: `0 0 30px ${colors.neonGlow}`
             }}>
-              Korea
+              Below Market Price
             </span>
           </h1>
 
-          {/* Core Values */}
-          <div className="flex flex-wrap gap-4 justify-center mb-8 max-w-2xl mx-auto">
-            <div 
-              className="px-6 py-3 rounded-full font-bold text-sm"
-              style={{
-                backgroundColor: darkMode ? colors.neonSubtle : 'rgba(0,170,91,0.1)',
-                border: `2px solid ${darkMode ? colors.neon : colors.lNeon}`,
-                color: darkMode ? colors.neon : colors.lNeon
-              }}
-            >
-              ✓ PERSONALIZED ACCOMMODATION
-            </div>
-            <div 
-              className="px-6 py-3 rounded-full font-bold text-sm"
-              style={{
-                backgroundColor: darkMode ? colors.neonSubtle : 'rgba(0,170,91,0.1)',
-                border: `2px solid ${darkMode ? colors.neon : colors.lNeon}`,
-                color: darkMode ? colors.neon : colors.lNeon
-              }}
-            >
-              ✓ PROFESSIONAL SETUPS
-            </div>
-          </div>
+          <p 
+            className="text-xl md:text-2xl mb-6 font-semibold"
+            style={{ 
+              color: darkMode ? colors.textLight : colors.lTextLight,
+              fontFamily: 'Inter, sans-serif'
+            }}
+          >
+            Premium Gaming Bootcamp in Korea
+          </p>
 
           {/* Stats */}
           <div className="grid grid-cols-4 gap-3 max-w-4xl mx-auto">
@@ -370,8 +356,8 @@ const JoyLuckBootcamp = () => {
               {
                 icon: "🎮",
                 title: "Gaming Setup",
-                desc: "Professional setups installed in your room. Custom PCs, monitors, streaming gear.",
-                features: ["Custom PC Builds", "Gaming Monitors", "Streaming Equipment"]
+                desc: "Professional gaming setups installed in your room.",
+                features: ["Gaming PC set up", "Streaming Equipment", "1Gbps Internet facility"]
               },
               {
                 icon: "📹",
